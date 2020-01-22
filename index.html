@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Frantzce Dot Com</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link href="resources/css/style.css" rel="stylesheet">
+	<link href="vendors/css/fixed.css">
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+	
+	<!--- Start Home Section --->
+	<div id="home">
+		<!--- Navigation --->
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+			<a class="navbar-brand" href="#">Frantzce</a>
+		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+				
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#biography">Biography</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#demo">Demo</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#gallery">Headshots/Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+	  	</nav>
+		<!--- End Navigation --->
+		
+		<!--- Start Landing Page Section --->
+		<div class="landing">
+			<div class="home-wrap">
+				<div class="home-inner">
+				</div>
+			</div>
+		</div>
+		
+		<div class="caption text-center">
+			<h4>Model / Actor</h4>
+			<h1>Frantz Theodore</h1>
+			<a class="btn btn-outline-light btn-lg" href="#biography">Yeeeer!</a>
+		</div>
+		<!--- End Landing Page Section--->
+		
+	 </div>
+	<!--- End Home Section --->
+	
+	<!--- Start Biography Section --->
+	<div id="biography" class="offset padding">
+		<div class="col-12 narrow text-center">
+			<h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Biography</h1>
+			<hr class="mt-2 mb-5">
+			<p class="lead">Frantz was a musician from Orlando, Florida. He first started as a euphonium player, who allowed music to be his place of comfort. As he grew more into the realm of music, he began to play the trombone, and started rapping. After graduating high school, he performed in a theater’s orchestra, playing the trombone. Frantz fell in love with being a part of the theater. He decided to move to New York to pursue acting.  He graduated from the New York Conservatory for the Dramatic Arts. While he was in acting school, he got involved in a parkour gym. The parkour gym introduced him to new skills, such as: Parkour, tumbling, trampoline (with and without the wall), break-dancing, and bar calisthenics. </p>
+			<br>
+		</div>
+	</div>
+	<!--- End Biography Section --->
+	
+	<!--- Start Demo Reel Section --->
+	<div id="demo" class="offset">
+	<div class="jumbotron padding">
+		<div class="col-12 text-center">
+		<h1>Reels</h1>
+		<hr class="mt-2 mb-5">
+		<!-- 16:9 aspect ratio -->
+		<div class="embed-responsive embed-responsive-16by9">
+  			<div id="ytplayer"></div>
+			<script>
+  			// Load the IFrame Player API code asynchronously.
+  			var tag = document.createElement('script');
+  			tag.src = "https://www.youtube.com/player_api";
+  			var firstScriptTag = document.getElementsByTagName('script')[0];
+  			firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  			// Replace the 'ytplayer' element with an <iframe> and
+  			// YouTube player after the API code downloads.
+  			var player;
+  			function onYouTubePlayerAPIReady() {
+			player = new YT.Player('ytplayer', {
+			height: '340',
+      		width: '600',
+      		videoId: 'JPeRuHThEoM'
+    		});
+  			}
+			</script>
+		</div>
+		</div>
+	</div>
+		</div>
+	<!--- End Demo Section --->
+	
+	<!--- Start Gallery Section --->
+	<!-- Page Content -->
+	<div id="gallery">
+		<div class="container padding">
+			
+  			
+		</div>
+	</div>
+	<!-- /.container -->
+	<!--- End Gallery Section --->
+	
+	<!--- Gallery --->	
+	<section id="gallery">
+		<div class="container padding">
+			<div class="row no-gutters">
+				<div class="col-sm-12">
+					<h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Headshots / Gallery</h1>
+					<hr class="mt-2 mb-5">
+					<div>
+						<ul class="nav nav-pills">
+							<li>
+								<a class="nav-item nav-link active" data-toggle="tab" href="#headshots">Headshots</a>
+							</li>
+							<li>
+								<a class="nav-item nav-link" data-toggle="tab" href="#dance">Dance</a>
+							</li>
+							<li>
+								<a class="nav-item nav-link" data-toggle="tab" href="#stunts">Stunts</a>
+							</li>
+							<li>
+								<a class="nav-item nav-link" data-toggle="tab" href="#lifestyle">Lifestyle</a>
+							</li>
+						</ul>
+					</div>
+					<br>
+					<!--- Dance --->
+					<div class="tab-content">
+						<div class="tab-pane fade show" id="dance">
+							<div class="row text-center text-lg-left">
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/dance/freeze-2-wide.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/dance/bboy-footwork-2-wide.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/dance/freeze-5-wide.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/dance/freeze-6-wide.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/dance/handstand.JPG" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/dance/leap.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/dance/tutting-background-wide.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/dance/bboy-footwork-wide.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/dance/bboy-footwork-1-long.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/dance/freeze-1-long.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/dance/freeze-3-long.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/dance/freeze-4-long.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/dance/freeze-7-long.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/dance/tutting-1-long.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/dance/tutting-2-long.jpg" alt="">
+									</a>
+								</div>
+							</div>
+						</div>
+						<!--- Stunts --->
+						<div class="tab-pane fade show" id="stunts">
+							<div class="row text-center text-lg-left">
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/stunts/kong-wide.JPG" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/stunts/parkour-roll-wide.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/stunts/parkour-strides-wide.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/stunts/speed-stall-wide.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/stunts/back-flip-1-wide.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/stunts/core-strength-wide.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/stunts/wall-run-1-wide.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/stunts/wall-run-2-wide.jpg" alt="">
+									</a>
+								</div>
+							</div>
+						</div>
+						<!--- Lifestyle --->
+						<div class="tab-pane fade show" id="lifestyle">
+							<div class="row text-center text-lg-left">
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/lifestyle/pose-2-wide.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/lifestyle/skateboarder-1-wide.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/lifestyle/skateboarder-6-wide.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/lifestyle/streching-1-wide.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/lifestyle/flexing-1-long.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/lifestyle/pose-1-long.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/lifestyle/skateboarder-2-long.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/lifestyle/skateboarder-3-long.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/lifestyle/skateboarder-5-long.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/lifestyle/skateboarder-7-long.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/lifestyle/stretching-2-long.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/lifestyle/train-pose-1-long.jpg" alt="">
+									</a>
+								</div>
+							</div>
+						</div>
+						<!--- Headshots --->
+						<div class="tab-pane fade show active" id="headshots">
+							<div class="row text-center text-lg-left">
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/headshots/Frantz-3-8x10.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/headshots/Frantz-4-8x10.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/headshots/Frantz-5-8x10.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/headshots/headshot.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/headshots/headshot-park-2.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/headshots/headshot-park.jpg" alt="">
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<a href="#" class="d-block mb-4 h-100">
+										<img class="img-fluid img-thumbnail" src="resources/css/img/headshots/headshot-park-1.jpg" alt="">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!--- Start Contact Section --->
+	<!--- Connect -->
+	<div id="contact">
+		<div class="container-fluid padding">
+			<div class="row text-center padding">
+				<div class="col-12">
+					<h2>Contact</h2>
+					<hr class="mt-2 mb-5">
+				</div>
+				<div class="col-12 social padding">
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-google-plus-g"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<!--- End Contact Section --->
+	
+	
+	<!-- Optional JavaScript -->
+   	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
+</body>
+</html>
