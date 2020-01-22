@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Grayscale - Start Bootstrap Theme</title>
+  <title>Frantzce - Portfolio</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Frantzce</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -53,9 +53,9 @@
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
-        <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
+        <h1 class="mx-auto my-0 text-uppercase">Frantzce Theodore</h1>
+	<h2 class="text-white-50 mx-auto mt-2 mb-5">Actor, Dancer, Free Runner, Photographer, Video Editor, Musician</h2>
+        <a href="#about" class="btn btn-primary js-scroll-trigger">Yeeer!!!</a>
       </div>
     </div>
   </header>
@@ -65,12 +65,17 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2 class="text-white mb-4">Built with Bootstrap 4</h2>
-          <p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-            <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+          <h2 class="text-white mb-4">About Me</h2>
+          <p class="text-white-50">
+		   Frantz was a musician from Orlando, Florida. He first started as a euphonium player, who allowed music to be his place of comfort. 
+		   As he grew more into the realm of music, he began to play the trombone, and started rapping. After graduating high school, he performed in a theater’s orchestra,
+		   playing the trombone. Frantz fell in love with being a part of the theater. He decided to move to New York to pursue acting. 
+		   He graduated from the New York Conservatory for the Dramatic Arts. While he was in acting school, he got involved in a parkour gym. 
+		   The parkour gym introduced him to new skills, such as: Parkour, tumbling, trampoline (with and without the wall), break-dancing, and bar calisthenics.
+	  </p>
         </div>
       </div>
-      <img src="img/ipad.png" class="img-fluid" alt="">
+      <img src="img/stunts/parkour-strides-wide.jpg" class="img-fluid" alt="">
     </div>
   </section>
 
@@ -81,12 +86,34 @@
       <!-- Featured Project Row -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
         <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+		<!-- 16:9 aspect ratio -->
+		<div class="embed-responsive embed-responsive-16by9">
+  			<div id="ytplayer"></div>
+			<script>
+  			// Load the IFrame Player API code asynchronously.
+  			var tag = document.createElement('script');
+  			tag.src = "https://www.youtube.com/player_api";
+  			var firstScriptTag = document.getElementsByTagName('script')[0];
+  			firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  			// Replace the 'ytplayer' element with an <iframe> and
+  			// YouTube player after the API code downloads.
+  			var player;
+  			function onYouTubePlayerAPIReady() {
+			player = new YT.Player('ytplayer', {
+			height: '340',
+      		width: '600',
+      		videoId: 'JPeRuHThEoM'
+    		});
+  			}
+			</script>
+		</div>
         </div>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
-            <h4>Shoreline</h4>
-            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+            <h4>Acting Reel</h4>
+            <p class="text-black-50 mb-0">Movie: Dope (2015)</p>
+	    <p class="text-black-50 md-0">Character Played: Malcom</p>
           </div>
         </div>
       </div>
@@ -94,13 +121,13 @@
       <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+		<img class="img-fluid" src="img/headshots/Frantz-4-8x10.jpg" alt="Headshot">
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Misty</h4>
+                <h4 class="text-white">Headshots</h4>
                 <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
@@ -112,13 +139,49 @@
       <!-- Project Two Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+		<img class="img-fluid" src="img/dance/tutting-background-wide.jpg" alt="">
+	</div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">Dance</h4>
+                <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Project One Row -->
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+		<img class="img-fluid" src="img/stunts/wall-run-1-wide.jpg" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white">Free Running</h4>
+                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Project Two Row -->
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+		<img class="img-fluid" src="img/lifestyle/streching-1-wide.jpg" alt="">
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Mountains</h4>
+                <h4 class="text-white">Lifestyle</h4>
                 <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
@@ -158,10 +221,10 @@
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
-              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Address</h4>
+              <i class="fab fa-instagram text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Instagram</h4>
               <hr class="my-4">
-              <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+              <div class="small text-black-50">@diskidfrantzce</div>
             </div>
           </div>
         </div>
