@@ -1,4 +1,4 @@
-# [Start Bootstrap - Grayscale](https://charlesangelolai.github.io/frantzceWebsite.github.io/)
+# [Frantzce - Portfolio](https://charlesangelolai.github.io/frantzceWebsite.github.io/)
 
 [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
