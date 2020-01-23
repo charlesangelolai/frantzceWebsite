@@ -6,8 +6,6 @@
 
 **[View Live Preview](https://charlesangelolai.github.io/frantzceWebsite.github.io/)**
 
-## Status
-
 ## Download and Installation
 
 ## About
